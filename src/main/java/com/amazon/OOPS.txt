@@ -1,0 +1,17 @@
+User
+     id, name, accountNo, password, accountBalance, lastUpdatedOn
+
+Share
+       id, companyName, price, lastUpdateOn
+
+Transaction
+           id, shareId, userId, shareCount, pricePerShare, transactedOn, transactionCharges, sttCharges, type
+
+User Share
+          id, userId, shareId, companyName, shareCount
+
+Relationship
+
+          User has shares | 1 to many
+          Share has User  | 1 to many
+          User has Transactions |many to many

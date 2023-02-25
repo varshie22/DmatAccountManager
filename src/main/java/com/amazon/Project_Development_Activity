@@ -1,0 +1,34 @@
+Project Development Activity
+Developer Name : Varsha Singh
+
+    1. Flow Mapping  : (Added)
+
+    2. OOPS -> Identify Objects and Attributes
+        User | name, account no. password
+        1 to 1
+        1 to many
+    3. ORM -> Entity Relationship | DBMS  (Added)
+    4. Code the Project
+        4.1 Modules
+            eg: User
+                Shares
+                Transactions
+                User shares
+                etc...
+        4.2 Well Packaging
+        4.3 Design Patterns
+            Singleton to design DataBase Structure
+            Factory for RTP Behavior
+    5. Test Cases
+            JUnit
+            Microsoft Excel Sheet       (Added)
+    6. Build the Project
+        Packaging of Project in a Jar File
+        JAR -> Java Archive
+                Its a collection of bytecodes and can be executed on any platform
+
+                Maven Build -> Goal set to -> clean package
+
+> IntelliJ IDE
+    Build Tool -> Maven
+> MySQL DataBase (sql queries file attached)

@@ -1,0 +1,3 @@
+jdbc:mysql://localhost/dmattradingaccount
+root
+123qwe
